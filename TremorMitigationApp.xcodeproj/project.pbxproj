@@ -1,0 +1,1332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F24624352E4299AB00CDFC56 /* TremorMitigation Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F24624342E4299AB00CDFC56 /* TremorMitigation Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F24623E42E42960600CDFC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24623CE2E42960400CDFC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24623D52E42960400CDFC56;
+			remoteInfo = TremorMitigationApp;
+		};
+		F24623EE2E42960600CDFC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24623CE2E42960400CDFC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24623D52E42960400CDFC56;
+			remoteInfo = TremorMitigationApp;
+		};
+		F246241F2E4299AB00CDFC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24623CE2E42960400CDFC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24624112E4299A900CDFC56;
+			remoteInfo = TremorMitigation;
+		};
+		F24624292E4299AB00CDFC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24623CE2E42960400CDFC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24624112E4299A900CDFC56;
+			remoteInfo = TremorMitigation;
+		};
+		F24624362E4299AB00CDFC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24623CE2E42960400CDFC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24624332E4299AB00CDFC56;
+			remoteInfo = "TremorMitigation Watch App";
+		};
+		F24624442E4299AC00CDFC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24623CE2E42960400CDFC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24624332E4299AB00CDFC56;
+			remoteInfo = "TremorMitigation Watch App";
+		};
+		F246244E2E4299AC00CDFC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F24623CE2E42960400CDFC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F24624332E4299AB00CDFC56;
+			remoteInfo = "TremorMitigation Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F24624582E4299AC00CDFC56 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F24624352E4299AB00CDFC56 /* TremorMitigation Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F24623D62E42960400CDFC56 /* TremorMitigationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TremorMitigationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24623E32E42960600CDFC56 /* TremorMitigationAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TremorMitigationAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24623ED2E42960600CDFC56 /* TremorMitigationAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TremorMitigationAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24624122E4299A900CDFC56 /* TremorMitigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TremorMitigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F246241E2E4299AB00CDFC56 /* TremorMitigationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TremorMitigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24624282E4299AB00CDFC56 /* TremorMitigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TremorMitigationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24624342E4299AB00CDFC56 /* TremorMitigation Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TremorMitigation Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F24624432E4299AC00CDFC56 /* TremorMitigation Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TremorMitigation Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F246244D2E4299AC00CDFC56 /* TremorMitigation Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TremorMitigation Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F2A3AB432E42E351009B57DA /* Exceptions for "TremorMitigation" folder in "TremorMitigation Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AdaptiveHapticEngine.swift,
+				Assets.xcassets,
+			);
+			target = F24624332E4299AB00CDFC56 /* TremorMitigation Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F24623D82E42960400CDFC56 /* TremorMitigationApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TremorMitigationApp;
+			sourceTree = "<group>";
+		};
+		F24623E62E42960600CDFC56 /* TremorMitigationAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TremorMitigationAppTests;
+			sourceTree = "<group>";
+		};
+		F24623F02E42960600CDFC56 /* TremorMitigationAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TremorMitigationAppUITests;
+			sourceTree = "<group>";
+		};
+		F24624132E4299A900CDFC56 /* TremorMitigation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F2A3AB432E42E351009B57DA /* Exceptions for "TremorMitigation" folder in "TremorMitigation Watch App" target */,
+			);
+			path = TremorMitigation;
+			sourceTree = "<group>";
+		};
+		F24624212E4299AB00CDFC56 /* TremorMitigationTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TremorMitigationTests;
+			sourceTree = "<group>";
+		};
+		F246242B2E4299AB00CDFC56 /* TremorMitigationUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TremorMitigationUITests;
+			sourceTree = "<group>";
+		};
+		F24624382E4299AB00CDFC56 /* TremorMitigation Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TremorMitigation Watch App";
+			sourceTree = "<group>";
+		};
+		F24624462E4299AC00CDFC56 /* TremorMitigation Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TremorMitigation Watch AppTests";
+			sourceTree = "<group>";
+		};
+		F24624502E4299AC00CDFC56 /* TremorMitigation Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TremorMitigation Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		F2A3AB5C2E43E8AB009B57DA /* tremor mitigation watch app */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "tremor mitigation watch app";
+			sourceTree = "<group>";
+		};
+		F2A3AB6A2E43E8AE009B57DA /* tremor mitigation watch appTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "tremor mitigation watch appTests";
+			sourceTree = "<group>";
+		};
+		F2A3AB742E43E8AE009B57DA /* tremor mitigation watch appUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "tremor mitigation watch appUITests";
+			sourceTree = "<group>";
+		};
+		F2A3AB812E43E8AE009B57DA /* tremor mitigation watch app Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "tremor mitigation watch app Watch App";
+			sourceTree = "<group>";
+		};
+		F2A3AB8F2E43E8AF009B57DA /* tremor mitigation watch app Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "tremor mitigation watch app Watch AppTests";
+			sourceTree = "<group>";
+		};
+		F2A3AB992E43E8AF009B57DA /* tremor mitigation watch app Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "tremor mitigation watch app Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F24623D32E42960400CDFC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24623E02E42960600CDFC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24623EA2E42960600CDFC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F246240F2E4299A900CDFC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F246241B2E4299AB00CDFC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24624252E4299AB00CDFC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24624312E4299AB00CDFC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24624402E4299AC00CDFC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F246244A2E4299AC00CDFC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F24623CD2E42960400CDFC56 = {
+			isa = PBXGroup;
+			children = (
+				F24623D82E42960400CDFC56 /* TremorMitigationApp */,
+				F24623E62E42960600CDFC56 /* TremorMitigationAppTests */,
+				F24623F02E42960600CDFC56 /* TremorMitigationAppUITests */,
+				F24624132E4299A900CDFC56 /* TremorMitigation */,
+				F24624212E4299AB00CDFC56 /* TremorMitigationTests */,
+				F246242B2E4299AB00CDFC56 /* TremorMitigationUITests */,
+				F24624382E4299AB00CDFC56 /* TremorMitigation Watch App */,
+				F24624462E4299AC00CDFC56 /* TremorMitigation Watch AppTests */,
+				F24624502E4299AC00CDFC56 /* TremorMitigation Watch AppUITests */,
+				F2A3AB5C2E43E8AB009B57DA /* tremor mitigation watch app */,
+				F2A3AB6A2E43E8AE009B57DA /* tremor mitigation watch appTests */,
+				F2A3AB742E43E8AE009B57DA /* tremor mitigation watch appUITests */,
+				F2A3AB812E43E8AE009B57DA /* tremor mitigation watch app Watch App */,
+				F2A3AB8F2E43E8AF009B57DA /* tremor mitigation watch app Watch AppTests */,
+				F2A3AB992E43E8AF009B57DA /* tremor mitigation watch app Watch AppUITests */,
+				F24623D72E42960400CDFC56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F24623D72E42960400CDFC56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F24623D62E42960400CDFC56 /* TremorMitigationApp.app */,
+				F24623E32E42960600CDFC56 /* TremorMitigationAppTests.xctest */,
+				F24623ED2E42960600CDFC56 /* TremorMitigationAppUITests.xctest */,
+				F24624122E4299A900CDFC56 /* TremorMitigation.app */,
+				F246241E2E4299AB00CDFC56 /* TremorMitigationTests.xctest */,
+				F24624282E4299AB00CDFC56 /* TremorMitigationUITests.xctest */,
+				F24624342E4299AB00CDFC56 /* TremorMitigation Watch App.app */,
+				F24624432E4299AC00CDFC56 /* TremorMitigation Watch AppTests.xctest */,
+				F246244D2E4299AC00CDFC56 /* TremorMitigation Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F24623D52E42960400CDFC56 /* TremorMitigationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24623F72E42960600CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigationApp" */;
+			buildPhases = (
+				F24623D22E42960400CDFC56 /* Sources */,
+				F24623D32E42960400CDFC56 /* Frameworks */,
+				F24623D42E42960400CDFC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F24623D82E42960400CDFC56 /* TremorMitigationApp */,
+			);
+			name = TremorMitigationApp;
+			packageProductDependencies = (
+			);
+			productName = TremorMitigationApp;
+			productReference = F24623D62E42960400CDFC56 /* TremorMitigationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F24623E22E42960600CDFC56 /* TremorMitigationAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24623FA2E42960600CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigationAppTests" */;
+			buildPhases = (
+				F24623DF2E42960600CDFC56 /* Sources */,
+				F24623E02E42960600CDFC56 /* Frameworks */,
+				F24623E12E42960600CDFC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24623E52E42960600CDFC56 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F24623E62E42960600CDFC56 /* TremorMitigationAppTests */,
+			);
+			name = TremorMitigationAppTests;
+			packageProductDependencies = (
+			);
+			productName = TremorMitigationAppTests;
+			productReference = F24623E32E42960600CDFC56 /* TremorMitigationAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F24623EC2E42960600CDFC56 /* TremorMitigationAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24623FD2E42960600CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigationAppUITests" */;
+			buildPhases = (
+				F24623E92E42960600CDFC56 /* Sources */,
+				F24623EA2E42960600CDFC56 /* Frameworks */,
+				F24623EB2E42960600CDFC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24623EF2E42960600CDFC56 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F24623F02E42960600CDFC56 /* TremorMitigationAppUITests */,
+			);
+			name = TremorMitigationAppUITests;
+			packageProductDependencies = (
+			);
+			productName = TremorMitigationAppUITests;
+			productReference = F24623ED2E42960600CDFC56 /* TremorMitigationAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F24624112E4299A900CDFC56 /* TremorMitigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24624592E4299AC00CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigation" */;
+			buildPhases = (
+				F246240E2E4299A900CDFC56 /* Sources */,
+				F246240F2E4299A900CDFC56 /* Frameworks */,
+				F24624102E4299A900CDFC56 /* Resources */,
+				F24624582E4299AC00CDFC56 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24624372E4299AB00CDFC56 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F24624132E4299A900CDFC56 /* TremorMitigation */,
+			);
+			name = TremorMitigation;
+			packageProductDependencies = (
+			);
+			productName = TremorMitigation;
+			productReference = F24624122E4299A900CDFC56 /* TremorMitigation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F246241D2E4299AB00CDFC56 /* TremorMitigationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F246245C2E4299AC00CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigationTests" */;
+			buildPhases = (
+				F246241A2E4299AB00CDFC56 /* Sources */,
+				F246241B2E4299AB00CDFC56 /* Frameworks */,
+				F246241C2E4299AB00CDFC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24624202E4299AB00CDFC56 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F24624212E4299AB00CDFC56 /* TremorMitigationTests */,
+			);
+			name = TremorMitigationTests;
+			packageProductDependencies = (
+			);
+			productName = TremorMitigationTests;
+			productReference = F246241E2E4299AB00CDFC56 /* TremorMitigationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F24624272E4299AB00CDFC56 /* TremorMitigationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F246245F2E4299AC00CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigationUITests" */;
+			buildPhases = (
+				F24624242E4299AB00CDFC56 /* Sources */,
+				F24624252E4299AB00CDFC56 /* Frameworks */,
+				F24624262E4299AB00CDFC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F246242A2E4299AB00CDFC56 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F246242B2E4299AB00CDFC56 /* TremorMitigationUITests */,
+			);
+			name = TremorMitigationUITests;
+			packageProductDependencies = (
+			);
+			productName = TremorMitigationUITests;
+			productReference = F24624282E4299AB00CDFC56 /* TremorMitigationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F24624332E4299AB00CDFC56 /* TremorMitigation Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24624552E4299AC00CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigation Watch App" */;
+			buildPhases = (
+				F24624302E4299AB00CDFC56 /* Sources */,
+				F24624312E4299AB00CDFC56 /* Frameworks */,
+				F24624322E4299AB00CDFC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F24624132E4299A900CDFC56 /* TremorMitigation */,
+				F24624382E4299AB00CDFC56 /* TremorMitigation Watch App */,
+			);
+			name = "TremorMitigation Watch App";
+			packageProductDependencies = (
+			);
+			productName = "TremorMitigation Watch App";
+			productReference = F24624342E4299AB00CDFC56 /* TremorMitigation Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F24624422E4299AC00CDFC56 /* TremorMitigation Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24624622E4299AC00CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigation Watch AppTests" */;
+			buildPhases = (
+				F246243F2E4299AC00CDFC56 /* Sources */,
+				F24624402E4299AC00CDFC56 /* Frameworks */,
+				F24624412E4299AC00CDFC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F24624452E4299AC00CDFC56 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F24624462E4299AC00CDFC56 /* TremorMitigation Watch AppTests */,
+			);
+			name = "TremorMitigation Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "TremorMitigation Watch AppTests";
+			productReference = F24624432E4299AC00CDFC56 /* TremorMitigation Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F246244C2E4299AC00CDFC56 /* TremorMitigation Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24624652E4299AC00CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigation Watch AppUITests" */;
+			buildPhases = (
+				F24624492E4299AC00CDFC56 /* Sources */,
+				F246244A2E4299AC00CDFC56 /* Frameworks */,
+				F246244B2E4299AC00CDFC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F246244F2E4299AC00CDFC56 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F24624502E4299AC00CDFC56 /* TremorMitigation Watch AppUITests */,
+			);
+			name = "TremorMitigation Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "TremorMitigation Watch AppUITests";
+			productReference = F246244D2E4299AC00CDFC56 /* TremorMitigation Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F24623CE2E42960400CDFC56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					F24623D52E42960400CDFC56 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					F24623E22E42960600CDFC56 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F24623D52E42960400CDFC56;
+					};
+					F24623EC2E42960600CDFC56 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F24623D52E42960400CDFC56;
+					};
+					F24624112E4299A900CDFC56 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					F246241D2E4299AB00CDFC56 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F24624112E4299A900CDFC56;
+					};
+					F24624272E4299AB00CDFC56 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F24624112E4299A900CDFC56;
+					};
+					F24624332E4299AB00CDFC56 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					F24624422E4299AC00CDFC56 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F24624332E4299AB00CDFC56;
+					};
+					F246244C2E4299AC00CDFC56 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = F24624332E4299AB00CDFC56;
+					};
+				};
+			};
+			buildConfigurationList = F24623D12E42960400CDFC56 /* Build configuration list for PBXProject "TremorMitigationApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F24623CD2E42960400CDFC56;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F24623D72E42960400CDFC56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F24623D52E42960400CDFC56 /* TremorMitigationApp */,
+				F24623E22E42960600CDFC56 /* TremorMitigationAppTests */,
+				F24623EC2E42960600CDFC56 /* TremorMitigationAppUITests */,
+				F24624112E4299A900CDFC56 /* TremorMitigation */,
+				F246241D2E4299AB00CDFC56 /* TremorMitigationTests */,
+				F24624272E4299AB00CDFC56 /* TremorMitigationUITests */,
+				F24624332E4299AB00CDFC56 /* TremorMitigation Watch App */,
+				F24624422E4299AC00CDFC56 /* TremorMitigation Watch AppTests */,
+				F246244C2E4299AC00CDFC56 /* TremorMitigation Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F24623D42E42960400CDFC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24623E12E42960600CDFC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24623EB2E42960600CDFC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24624102E4299A900CDFC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F246241C2E4299AB00CDFC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24624262E4299AB00CDFC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24624322E4299AB00CDFC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24624412E4299AC00CDFC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F246244B2E4299AC00CDFC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F24623D22E42960400CDFC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24623DF2E42960600CDFC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24623E92E42960600CDFC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F246240E2E4299A900CDFC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F246241A2E4299AB00CDFC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24624242E4299AB00CDFC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24624302E4299AB00CDFC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F246243F2E4299AC00CDFC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F24624492E4299AC00CDFC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F24623E52E42960600CDFC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24623D52E42960400CDFC56 /* TremorMitigationApp */;
+			targetProxy = F24623E42E42960600CDFC56 /* PBXContainerItemProxy */;
+		};
+		F24623EF2E42960600CDFC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24623D52E42960400CDFC56 /* TremorMitigationApp */;
+			targetProxy = F24623EE2E42960600CDFC56 /* PBXContainerItemProxy */;
+		};
+		F24624202E4299AB00CDFC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24624112E4299A900CDFC56 /* TremorMitigation */;
+			targetProxy = F246241F2E4299AB00CDFC56 /* PBXContainerItemProxy */;
+		};
+		F246242A2E4299AB00CDFC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24624112E4299A900CDFC56 /* TremorMitigation */;
+			targetProxy = F24624292E4299AB00CDFC56 /* PBXContainerItemProxy */;
+		};
+		F24624372E4299AB00CDFC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24624332E4299AB00CDFC56 /* TremorMitigation Watch App */;
+			targetProxy = F24624362E4299AB00CDFC56 /* PBXContainerItemProxy */;
+		};
+		F24624452E4299AC00CDFC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24624332E4299AB00CDFC56 /* TremorMitigation Watch App */;
+			targetProxy = F24624442E4299AC00CDFC56 /* PBXContainerItemProxy */;
+		};
+		F246244F2E4299AC00CDFC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F24624332E4299AB00CDFC56 /* TremorMitigation Watch App */;
+			targetProxy = F246244E2E4299AC00CDFC56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F24623F52E42960600CDFC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F24623F62E42960600CDFC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F24623F82E42960600CDFC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TremorMitigationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F24623F92E42960600CDFC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TremorMitigationApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F24623FB2E42960600CDFC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TremorMitigationAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TremorMitigationApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TremorMitigationApp";
+			};
+			name = Debug;
+		};
+		F24623FC2E42960600CDFC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TremorMitigationAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TremorMitigationApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TremorMitigationApp";
+			};
+			name = Release;
+		};
+		F24623FE2E42960600CDFC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TremorMitigationAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TremorMitigationApp;
+			};
+			name = Debug;
+		};
+		F24623FF2E42960600CDFC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TremorMitigationAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TremorMitigationApp;
+			};
+			name = Release;
+		};
+		F24624562E4299AC00CDFC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TremorMitigation;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.TremorMitigation;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TremorMitigation.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		F24624572E4299AC00CDFC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TremorMitigation;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.TremorMitigation;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TremorMitigation.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		F246245A2E4299AC00CDFC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TremorMitigation;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TremorMitigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F246245B2E4299AC00CDFC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TremorMitigation;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TremorMitigation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F246245D2E4299AC00CDFC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TremorMitigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TremorMitigation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TremorMitigation";
+			};
+			name = Debug;
+		};
+		F246245E2E4299AC00CDFC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TremorMitigationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TremorMitigation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TremorMitigation";
+			};
+			name = Release;
+		};
+		F24624602E4299AC00CDFC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TremorMitigationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TremorMitigation;
+			};
+			name = Debug;
+		};
+		F24624612E4299AC00CDFC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TremorMitigationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TremorMitigation;
+			};
+			name = Release;
+		};
+		F24624632E4299AC00CDFC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TremorMitigation-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TremorMitigation Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TremorMitigation Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		F24624642E4299AC00CDFC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TremorMitigation-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TremorMitigation Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TremorMitigation Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		F24624662E4299AC00CDFC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TremorMitigation-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TremorMitigation Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		F24624672E4299AC00CDFC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.TremorMitigation-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TremorMitigation Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F24623D12E42960400CDFC56 /* Build configuration list for PBXProject "TremorMitigationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24623F52E42960600CDFC56 /* Debug */,
+				F24623F62E42960600CDFC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24623F72E42960600CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24623F82E42960600CDFC56 /* Debug */,
+				F24623F92E42960600CDFC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24623FA2E42960600CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigationAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24623FB2E42960600CDFC56 /* Debug */,
+				F24623FC2E42960600CDFC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24623FD2E42960600CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigationAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24623FE2E42960600CDFC56 /* Debug */,
+				F24623FF2E42960600CDFC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24624552E4299AC00CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigation Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24624562E4299AC00CDFC56 /* Debug */,
+				F24624572E4299AC00CDFC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24624592E4299AC00CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F246245A2E4299AC00CDFC56 /* Debug */,
+				F246245B2E4299AC00CDFC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F246245C2E4299AC00CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F246245D2E4299AC00CDFC56 /* Debug */,
+				F246245E2E4299AC00CDFC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F246245F2E4299AC00CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24624602E4299AC00CDFC56 /* Debug */,
+				F24624612E4299AC00CDFC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24624622E4299AC00CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigation Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24624632E4299AC00CDFC56 /* Debug */,
+				F24624642E4299AC00CDFC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F24624652E4299AC00CDFC56 /* Build configuration list for PBXNativeTarget "TremorMitigation Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F24624662E4299AC00CDFC56 /* Debug */,
+				F24624672E4299AC00CDFC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F24623CE2E42960400CDFC56 /* Project object */;
+}
